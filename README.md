@@ -1,12 +1,33 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/gUachAgg)
-# COE2SH4-PPA3Template
-Project Preparation Activity 3
+🐍 Snake Game in C++
+A classic Snake game implemented in C++, featuring simple controls, dynamic gameplay, and a retro console interface. The game is built using basic C++ principles, including arrays, loops, and object-oriented programming.
 
-You must watch the briefing video and read through the manual to engage in the development activities.
+🎮 Features
+✅ Classic Gameplay – Control the snake to eat food and grow while avoiding collisions.
+✅ Console-Based Interface – Runs smoothly in the terminal using ASCII graphics.
+✅ Dynamic Speed – The game gets progressively faster as the snake grows.
+✅ Collision Detection – Lose the game if you hit the wall or yourself.
+✅ Score System – Keep track of your highest score.
 
-
-Section: [Insert your lab section]
-
-MacID: [Insert your macID here]
-
-StudentID: [Insert your numerical student ID here]
+🛠️ Technologies Used
+C++ (Standard Library)
+Console Graphics (ASCII-based)
+Windows/Linux Terminal Support
+🚀 How to Run
+Clone this repository:
+bash
+Copy
+Edit
+git clone https://github.com/Ahmad-Molhim/Snake-Game.git
+cd Snake-Game
+Compile the program:
+bash
+Copy
+Edit
+g++ snake.cpp -o snake
+Run the game:
+bash
+Copy
+Edit
+./snake  # (or snake.exe on Windows)
+🎯 Controls
+W / A / S / D – Move Up, Left, Down, Right
